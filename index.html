@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>El Bebito Fiu Fiu - Pàgina principal</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu"/>
+		<label for="btn-menu">
+			<img src="img/Hamburger.png" alt=""/>
+		</label>
+		<nav id="hamburger">
+			<ul class="principal">
+				<li><a href="#">
+					Categories
+				</a></li>
+				<li><a href="#">
+					Carrito
+				</a></li>
+				<li><a href="#">
+					Perfil
+				</a></li>
+				<li><a href="#">
+					Opcions
+				</a></li>
+			</ul>
+		</nav>
+        <a href="index.html"><img src="img/logo.png" alt="Software Babes"></a>
+        
+    </header>
+    
+    <div id="mainDiv">
+
+        <div id="sliderDiv">
+            <div id="sliderIMGs">
+                <img class ="slider" src="img/small-baby-in-a-basket.jpg" alt="Benvinguts">
+                <img class= "slider" src="img/cursed_duck.jpg" alt="Pato maldito">
+            </div>
+            <div id="sliderButtons">
+                <a id="prev" onclick="plusSlides(-1)">❮</a>
+                <a id="next" onclick="plusSlides(1)">❯</a>
+            </div>
+        </div>
+
+        <div id="categoriesDiv">
+            <div class="cat">
+                <a href="html/shop.html#higiene" id="hygiene">
+                    <img src="img/hygiene.jpg" alt="Higiene">
+                    <h1><span>Higiene</span></h1>
+                </a>
+            </div>
+            <div class="cat">
+                <a href="html/shop.html#roba" id="roba">
+                    <img src="img/baby-clothes.jpg" alt="Higiene">
+                    <h1><span>Roba</span></h1>
+                </a>
+            </div>
+            <div class="cat">
+                <a href="html/shop.html#joguines" id="joguines">
+                    <img src="img/toys.jpg" alt="Higiene">
+                    <h1><span>Joguines</span></h1>
+                </a>
+            </div>
+            <div class="cat">
+                <a href="html/shop.html#accessoris" id="Accessoris">
+                    <img src="img/accessories.jpg" alt="Accessoris">
+                    <h1><span>Accessoris</span></h1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        TODO: footer
+    </footer>
+
+    
+    <script src="js/slider.js"></script>
+</body>
+</html>

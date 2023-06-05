@@ -1,0 +1,57 @@
+
+
+#productsDiv
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.product {
+    margin-top: 3rem;
+    width: 20rem;
+    padding: 0px 2em 2em 2em;
+    margin-bottom: 1em;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.prod_nom
+{
+    text-align: center;
+    color: var(--secondary-color);
+    cursor:text;
+}
+
+.priceDiv
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--tertiary-color);
+    border-radius: 0 0 1em 1em;
+}
+
+.prod_preu
+{
+    margin-right: 1em;
+    font-size: 1.25em;
+    color: var(--secondary-color);
+}
+
+.addToCart
+{
+    border-radius: 1em;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--background-color);
+    margin: 0.5rem;
+    cursor:pointer;
+}
+
+.addToCart:hover
+{
+    background-color: white;
+}
